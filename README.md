@@ -32,7 +32,7 @@
 ## 快速开始
 
 ```bat
-git clone https://github.com/<you>/NetGuard.git
+git clone https://github.com/Cao-Hao-Yu/NetGuard.git
 cd NetGuard
 install.bat          :: 自动建环境(env\)、下载 Chromium(browsers\)、注册开机自启
 ```
