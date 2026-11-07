@@ -1,0 +1,14 @@
+# Personal config (contains campus credentials) - never commit
+config.json
+
+# Runtime state & logs
+state.json
+logs/
+
+# Local environments & browser binaries
+env/
+browsers/
+
+# Python
+__pycache__/
+*.pyc

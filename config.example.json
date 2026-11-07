@@ -1,0 +1,78 @@
+{
+  "probe_interval_sec": 30,
+  "fail_threshold": 3,
+  "probe_timeout_sec": 4,
+  "probe_targets": [
+    [
+      "153.3.238.28",
+      443,
+      "www.baidu.com"
+    ],
+    [
+      "58.217.133.225",
+      443,
+      "www.qq.com"
+    ],
+    [
+      "121.226.246.3",
+      443,
+      "www.jd.com"
+    ]
+  ],
+  "boot_grace_sec": 180,
+  "heartbeat_min": 30,
+  "reboot_cooldown_min": 30,
+  "max_reboots_per_24h": 3,
+  "reboot_countdown_sec": 60,
+  "cancel_suppress_min": 120,
+  "auth_before_reboot": true,
+  "auth_retry_min": 5,
+  "auth_retry_max_min": 30,
+  "max_auth_per_day": 10,
+  "portal_url": "",
+  "campus_account": "",
+  "campus_password": "",
+  "username_selector": "",
+  "password_selector": "",
+  "submit_selector": "",
+  "headless": true,
+  "task_processes": [
+    "python",
+    "pythonw"
+  ],
+  "task_ignore_cmdline": [
+    "workbuddy"
+  ],
+  "never_kill": [
+    "todesk",
+    "todeskservice",
+    "sunloginclient",
+    "rustdesk",
+    "anydesk",
+    "teamviewer",
+    "python",
+    "pythonw"
+  ],
+  "kill_apps": [
+    "clash-verge",
+    "verge-mihomo",
+    "verge-mihomo-alpha",
+    "clash-verge-service",
+    "clash",
+    "mihomo",
+    "msedge",
+    "chrome",
+    "firefox",
+    "chatgpt",
+    "antigravity",
+    "code",
+    "wechat",
+    "weixin",
+    "qq",
+    "dingtalk",
+    "feishu",
+    "telegram"
+  ],
+  "dry_run": true,
+  "tray_promoted": false
+}
